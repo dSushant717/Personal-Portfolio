@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: aqua;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navbar ul li{
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+}
