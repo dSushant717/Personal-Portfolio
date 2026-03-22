@@ -21,6 +21,9 @@
     <h2>Contact Me</h2>
     <p>Email: sdahal249@gmail.com</p>
     <p>Phone: +1 (859) 749-1151</p>
+    <a href="https://github.com/dSushant717" target="_blank">Github</a>
+    <a href="https://www.linkedin.com/in/sushantdahal/" target="_blank">LinkedIn</a>
+
 
     <form action="">
         <label for="form_name">Name</label>
@@ -39,7 +42,7 @@
         <br>
 
         <label for="country">Country</label>
-        <select name="" id="">
+        <select name="country" id="country">
             <option value="nepal">Nepal</option>
             <option value="usa">USA</option>
             <option value="india">India</option>
@@ -50,15 +53,16 @@
 
         <label for="form_gender">Gender</label>
         <br>
+        <input type="radio" name="form_gender" value="male" id="form_male">
         <label for="form_male">Male</label>
-        <input type="radio" value="male" id="form_male">
+        <input type="radio" name="form_gender" value="female" id="form_female">
         <label for="form_female">Female</label>
-        <input type="radio" value="female" id="form_female">
+        <input type="radio" name="form_gender" value="other" id="form_other">
         <label for="form_other">Other</label>
-        <input type="radio" value="other" id="form_other">
+        <input type="radio" name="form_gender" value="not_prefer" id="form_prefer_not_to_say">
         <label for="form_prefer_not_to_say">Prefer not to say</label>
-        <input type="radio" value="not_prefer" id="form_prefer_not_to_say">
 
+        <br>
         <label>Hobbies/Interest</label>
         <br>
         <label for="Football">Football</label>
@@ -69,9 +73,8 @@
         <input type="checkbox" id="Chess" name="Chess" value="chess">
 
         <br>
-        <textarea name="" id="">
-
-        </textarea>
+        <label for="message">Message</label>
+<textarea id="message" name="message" placeholder="Write your message here"></textarea>
         <br>
         <button type="submit">Submit</button>
     </form>
