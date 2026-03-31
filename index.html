@@ -1,41 +1,106 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home page</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav id="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="education.html">Education</a></li>
-          <li><a href="skills.html">Skills</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sushant Dahal | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <main>
-      <h1>Sushant Dahal</h1>
-      <div class="introduction">
-        <img id="profile" src="images/profile_picture.gif" alt="Sushant Dahal">
+  <!-- Navigation -->
+  <header>
+    <nav id="navbar">
+      <div class="nav-brand">Sushant Dahal</div>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-container">
+    <!-- Hero / Intro -->
+    <section class="hero-section card">
+      <div class="hero-text">
+        <p class="small-tag">Computer Science Student • Web Developer</p>
+        <h1>Sushant Dahal</h1>
         <p>
-          I am a highly motivated and dedicated computer science student at
-          Northern Kentucky University with experience in
-          JavaScript and Java. Through self-learning, university lectures, and my
-          role as a FullStack Web Developer for the Kentucky Center for
-          Mathematics, I have refined my technical skills while developing a
-          communicative, collaborative spirit and a problem-solving mindset.
+          Hello, my name is Sushant Dahal. I am a Computer Science student at Northern Kentucky University
+          with a minor in Mathematics. I enjoy building websites, solving problems, and improving my skills
+          through real projects and hands-on learning.
         </p>
-      </div>
-    </main>
+        <p>
+          I have worked on academic and professional projects involving HTML, CSS, JavaScript, PHP, Python,
+          Java, Git, and Linux. I enjoy creating websites that are simple, useful, and easy to use.
+        </p>
 
-    <footer>
-          <p>&copy; 2026 Sushant Dahal. All rights reserved.</p>
-    </footer>
-  </body>
+        <div class="button-group">
+          <button id="hire-btn" class="primary-btn">Hire Me</button>
+          <a href="projects.html" class="secondary-btn">View Projects</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img id="profile" src="images/profile_picture.gif" alt="Sushant Dahal">
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="card">
+      <h2>About Me</h2>
+      <p>
+        I am currently building my skills in software and web development while working on projects that help
+        me become more confident as a developer. I like learning by doing, especially when I can apply what I
+        study to something practical and meaningful.
+      </p>
+      <p>
+        My interests include front-end development, full-stack web development, debugging, and building projects
+        that have clean structure and good design. I also enjoy working with teams, learning new tools, and
+        improving step by step.
+      </p>
+    </section>
+
+    <!-- Goals -->
+    <section class="card">
+      <h2>Career Goal</h2>
+      <p>
+        My goal is to become a software developer and continue improving in both front-end and back-end
+        development. I want to work on projects that solve real problems, create a good user experience,
+        and help me grow professionally.
+      </p>
+    </section>
+
+    <!-- Experience -->
+    <section class="card">
+      <h2>Experience Highlights</h2>
+      <ul class="info-list">
+        <li>Student Web Developer at the Kentucky Center for Mathematics</li>
+        <li>Experience working on academic and personal web development projects</li>
+        <li>Hands-on practice with Git, Linux, debugging, and responsive layouts</li>
+        <li>Built projects using HTML, CSS, JavaScript, PHP, Java, and Python</li>
+      </ul>
+    </section>
+
+    <!-- Hidden extra section -->
+    <section class="card">
+      <h2>More About Me</h2>
+      <p id="more-text" class="hidden-text">
+        Beyond coding, I enjoy learning new technologies, improving my project structure, and finding better
+        ways to organize content and design. I believe consistency, simplicity, and responsiveness are very
+        important in making a good website.
+      </p>
+      <button id="toggle-btn" class="secondary-btn">Show More</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Sushant Dahal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>

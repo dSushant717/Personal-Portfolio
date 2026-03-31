@@ -1,47 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Education</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education | Sushant Dahal</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-      <nav id="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="education.html">Education</a></li>
-          <li><a href="skills.html">Skills</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <h1>Bachelors in Computer Science</h1>
-    <p>I graduated from Northern Kentucky University.</p>
 
-    <hr>
-    <h1>Highschool</h1>
-    <p>I graduated highschool from Little Angels' in 2021</p>
+  <header>
+    <nav id="navbar">
+      <div class="nav-brand">Sushant Dahal</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="education.html" class="active">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main class="page-container">
+    <section class="card">
+      <h1>Education</h1>
+      <p>
+        I am currently studying at Northern Kentucky University as a Computer Science major with a minor in
+        Mathematics. My expected graduation is Spring 2026.
+      </p>
+      <p>
+        My coursework has helped me build a strong foundation in programming, web development, problem solving,
+        databases, and software-related concepts.
+      </p>
+    </section>
 
-    <table border="1" style="border-collapse:collapse;">
-        <tr>
+    <section class="card">
+      <h2>University</h2>
+      <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
+      <p><strong>Minor:</strong> Mathematics</p>
+      <p><strong>Institution:</strong> Northern Kentucky University</p>
+      <p><strong>Expected Graduation:</strong> Spring 2026</p>
+    </section>
+
+    <section class="card">
+      <h2>Relevant Coursework</h2>
+      <ul class="info-list">
+        <li>Web Development</li>
+        <li>Database Systems</li>
+        <li>Programming in Java</li>
+        <li>Programming in C/C++</li>
+        <li>Software Engineering</li>
+        <li>Networking and Systems</li>
+        <li>Mathematics for Computing</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Education Summary Table</h2>
+      <div class="table-wrapper">
+        <table>
+          <tr>
             <th>Degree</th>
             <th>Institution</th>
             <th>Year</th>
-        </tr>
-        <tr>
-            <td>B.Sc</td>
+          </tr>
+          <tr>
+            <td>B.Sc. Computer Science</td>
             <td>Northern Kentucky University</td>
             <td>2026</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>High School</td>
             <td>Little Angels'</td>
             <td>2021</td>
-        </tr>
-    </table>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Sushant Dahal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
