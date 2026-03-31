@@ -1,4 +1,3 @@
-````md
 # Personal Portfolio Website
 
 ## Project Overview
@@ -29,7 +28,6 @@ This website was developed as a class project and includes multiple pages, respo
 ---
 
 ## Project Structure
-```text
 Personal Portfolio Website/
 │── index.html
 │── education.html
@@ -42,7 +40,6 @@ Personal Portfolio Website/
 │── images/
 │── projects/
 │── screenshots/
-````
 
 ---
 
